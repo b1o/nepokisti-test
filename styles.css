@@ -453,7 +453,7 @@ a[_ngcontent-ng-c2270348819] {
 main{padding:0 16px 32px;max-width:1200px;margin:0 auto}
 
 /* The static copy cannot write notes. */
-p.hint{display:none}
+p.hint{display:none !important}
 
 /* The floating player of the static copy (player.js). */
 .snap-player{position:fixed;right:16px;bottom:16px;z-index:10;width:min(480px,calc(100vw - 32px));background:#111;border:1px solid #444;border-radius:8px;box-shadow:0 8px 24px rgba(0,0,0,.5);overflow:hidden}
