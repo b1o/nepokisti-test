@@ -451,3 +451,6 @@ a[_ngcontent-ng-c2270348819] {
 /*# sourceMappingURL=/time-link.css.map */
 .snapshot-note{font:12px system-ui;opacity:.7;margin:8px 16px}
 main{padding:0 16px 32px;max-width:1200px;margin:0 auto}
+
+/* The static copy cannot write notes. */
+p.hint{display:none}
