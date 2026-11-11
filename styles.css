@@ -456,7 +456,7 @@ main{padding:0 16px 32px;max-width:1200px;margin:0 auto}
 p.hint{display:none !important}
 
 /* The floating player of the static copy (player.js). */
-.snap-player{position:fixed;right:16px;bottom:16px;z-index:10;width:min(480px,calc(100vw - 32px));background:#111;border:1px solid #444;border-radius:8px;box-shadow:0 8px 24px rgba(0,0,0,.5);overflow:hidden}
+.snap-player{box-sizing:border-box;position:fixed;right:16px;bottom:16px;z-index:10;width:min(480px,calc(100vw - 32px));background:#111;border:1px solid #444;border-radius:8px;box-shadow:0 8px 24px rgba(0,0,0,.5);overflow:hidden}
 .snap-player header{display:flex;align-items:center;gap:8px;padding:6px 8px;font:13px system-ui;color:#ddd}
 .snap-player header span{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .snap-player button{font:inherit;color:inherit;background:#333;border:1px solid #555;border-radius:4px;padding:2px 10px;cursor:pointer}
